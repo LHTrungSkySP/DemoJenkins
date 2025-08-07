@@ -32,7 +32,7 @@ namespace DemoJenkins.Controllers
         [HttpGet("Test")]
         public string Test()
         {
-            return "Test endpoint is working!";
+            return "Test endpoint is wofgxrking!";
         }
     }
 }
