@@ -29,5 +29,10 @@ namespace DemoJenkins.Controllers
             })
             .ToArray();
         }
+        [HttpGet("Test")]
+        public string Test()
+        {
+            return "Test endpoint is working!";
+        }
     }
 }
